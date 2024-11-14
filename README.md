@@ -1,22 +1,20 @@
 Hospitality-Data-Analysis-Project-using-Python
-In the fast-paced world of luxury hotels, AtliQ Grands faced revenue challenges that threatened its market share. As an aspiring Data Analyst, I embarked on a journey to transform the fortunes of this prestigious 5-star hotel chain in India.
+Problem Statement
+Atliq Grands, a well-established entity in India's hotel industry, is currently facing competition and a decline in revenue. To address these issues,the management team has chosen to leverage data and strategic insights. Lacking internal data expertise,they have enlisted external assistance to analyze the situation,provide actionable insights, and devise effective strategies for customer retention and revenue growth.
 
-Here's a quick glimpse of some noteworthy facts about AtliQ Grands:
+Project Goal
+The goal of this project is to conduct a comprehensive analysis of the hotel domain using Python. By employing data-driven insights and strategic recommendations, my aim is to empower Atliq Grands to make informed decisions and regain a competitive edge in the industry.
 
-➡️AtliQ Grands proudly stands as a five-star hotel chain with a presence in four bustling cities.
-
-➡️Across these urban hubs, AtliQ Grands boasts a network of seven distinct properties, strategically situated to cater to diverse clientele.
-
-➡️Within these upscale properties, guests are offered a choice of four room categories: Elite, Premium, Presidential, and Standard, ensuring a tailored experience for every visitor.
-
-➡️To enhance guest convenience, AtliQ Grands offers reservations through six prominent booking platforms, optimizing accessibility and ease of booking.
-
-Project Scope: My mission was clear - to harness the power of data and perform exploratory data analysis that would pave the way for smarter decision-making at AtliQ Grands. To achieve this, we leveraged several datasets:
-
-dim_date - This table contains date-related information, such as dates, week numbers, and day types (weekend and weekday). We utilized this data to analyze booking trends over time.
-
-dim_hotels - This table provided crucial details about the properties, including property ID, property name, category, and cities. It was essential for understanding the hotel chain's properties and their characteristics.
-
-dim_rooms - This table included information about room IDs and room classes. We used this data to analyze which types of rooms were more popular or profitable.
-
-fact_aggregated_bookings - This fact table contained data related to property ID, check-in dates, room categories, successful bookings, and capacity. It served as a crucial source for calculating key metrics related to bookings and occupancy.
+Project Highlights
+Data Cleaning- Handling missing values and outliers.
+Data Transformation - Added occupancy% columns.
+Insights generation-key questions answered
+calculating average occupaancy rate by room type and city.
+Identifying occupancy rate on weekdays and weekends.
+Analyzing revenue generated per city.
+Analyzing monthly revenue trends.
+Assessing revenue by booking platforms.
+Skills Learned
+Python Programming: Enhancing proficiency in Python for data analysis,cleaning ,transforamtion and visualization.
+Data Viusualization: Leveraged Matplotlib library for creating charts and bars.
+Pandas Fundamentals- creating various dataframes,group by functions,concate and merging,hanling NA values,read csv files etc.
